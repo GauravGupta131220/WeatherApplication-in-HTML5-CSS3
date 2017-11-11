@@ -1,0 +1,551 @@
+
+/**
+ * type of font for entire body
+ */
+body{
+	font-family: Arial;
+}
+
+/**
+ *An unusually high z-index value is used to 
+ *significantly reduce the possibility that an 
+ *HTML element is rendered on top of the fixed navigation bar, 
+ *as long as there are no other z-index values higher than 9999  cxvdsvdsfdsf
+ *
+ */
+
+.fixed-nav-bar{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 167px;
+  z-index: 9999;
+  width: 74%;
+  height: 50px;
+  background-color: #00a087;
+
+}
+
+/**
+ * header section
+ */
+section{
+
+	background-color: #e3e3e3;
+	height: 150px;
+
+
+}
+
+/**
+ * header section
+ */
+section h1{
+	text-transform: uppercase;;
+	text-align: center;
+	font-size: 45px;
+	color: orange;
+	line-height: 150px;
+}
+
+/**
+ * main menu
+ */
+.main_menu{
+	padding: 5px 0 5px 0;
+	background-color: #a9a9a9;
+	text-align: center;
+	line-height: 32px;
+
+}
+
+/**
+ * main menu
+ */
+ul.main_menu{
+	margin-top: 15px;
+
+}
+
+/**
+ * main-menu list items
+ */
+.main_menu li{
+	display: inline;
+	padding: 0 10px 0px 10px;
+	font-size: 20px;
+}
+
+/**
+ * main menu
+ */
+.main_menu a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+}
+
+/**
+ * [a description]
+ * @type {[type]}
+ */
+.main_menu a:hover{
+	color: orange;
+}
+
+
+
+/**
+ *3 column Section 
+ */
+.colwrapper{
+	margin-top:15px;
+}
+
+
+/**
+ * 3 column section
+ */
+#wrapper{
+
+	max-width: 960px;
+	margin: auto;
+	background: white;
+	padding: 32px;
+}
+
+/**
+ * weather report section
+ */
+.content p{
+	padding-left: 10px;
+}
+
+/**
+ * weather report section
+ */
+.content a{
+	text-decoration: none;
+	padding-left: 10px; 
+	color: orange
+}
+
+
+/**
+ * weather report section
+ */
+.content span{
+	color: blue;
+}
+
+
+/**
+ * column 1
+ */
+.primary{
+	
+	background-color: #e3e3e3;
+	float: left;	
+	width: 310px;
+	height: 250px;	
+}
+
+/**
+ * column 2
+ */
+.content{
+	margin: 0 5px 0 5px;
+	position: relative;
+	overflow: hidden;
+	background-color: #e3e3e3;
+	float: left;
+	width: 310px;
+	height: 250px;
+}
+
+/**
+ * column 3
+ */
+.secondary{
+	margin: 0 20px 0 0;
+	background-color: #e3e3e3;
+	float: left;
+	width: 310px;
+	height: 250px;
+	
+}
+
+/**
+ * 3 coulumn headings
+ */
+.primary h3,.content h3,.secondary h3{
+	padding: 10px;
+	color: orange;
+	font-size: 20px;
+}
+
+/**
+ * column 3 table
+ */
+.secondary table{
+	display: block; 
+	padding: 0 5px 0 5px;
+}
+
+/**
+ * table heading
+ */
+.secondary th{
+	width: 150px;
+}
+
+/**
+ * table data
+ */
+.secondary td{
+	text-align: center;
+}
+
+/**
+ * column 2
+ */
+.content h2{
+	padding-left: 10px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+/**
+ * Hero Section
+ */
+.hero-image {
+    
+    background-image: url("../img/hero.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding-top: 25%;
+    margin-top: 30%;
+    background-size: cover;
+    position: relative;
+}
+
+/**
+ * Hero Section
+ */
+.hero-text {
+    text-align: center;
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/**
+ * hero -section button
+ */
+a.button{
+	font-size: 25px;
+	appearance: button;
+	background-color: #e3e3e3;
+	color: black;
+}
+
+
+/**
+ * lightning section
+ */
+.lightning{
+	margin-top: 15px;
+	height: 250px;
+}
+
+
+/**
+ * lightning section
+ */
+.ltcol{
+	float: left;
+	width: 336px;
+}
+
+/**
+ * lightning section
+ */
+.ltcol img{
+	height: 250px;
+	width: 250px;
+}
+
+/**
+ * lightning section
+ */
+.rtcol{
+	float: right;
+	width: 624px;
+}
+
+/**
+ * lightning section
+ */
+.rtcol h1{
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	color: black;
+}
+
+
+/**
+ * lightning section
+ */
+.rtcol h2{
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	color: #777;
+}
+
+
+/**
+ * lightning section
+ */
+.rtcol p{
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-family: Lato,sans-serif;
+	color: #555;
+}
+
+
+/**
+ * lightning section
+ */
+.rtcol a{
+	
+	margin-top: 10px;
+	font-weight: 300;
+	color: orange;
+	text-decoration: none;
+}
+
+/**
+ * india weather
+ */
+.indiaWeather{
+	margin-top: 15px;
+	height: 250px;
+}
+
+
+
+/**
+ * india weather
+ */
+.leftcol{
+	float: left;
+	width: 624px;
+}
+
+
+/**
+ * india weather
+ */
+.rightcol{
+	float: right;
+	width: 336px;
+}
+
+
+/**
+ * india weather
+ */
+.rightcol img{
+	height: 250px;
+	width: 330px;
+}
+
+
+/**
+ * india weather
+ */
+.leftcol h1{
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	color: black;
+}
+
+
+/**
+ * india weather
+ */
+.leftcol p{
+	display: block;
+	margin-top: 10px;
+	font-weight: 300;
+	font-family: Lato,sans-serif;
+	color: #555;
+}
+
+/**
+ * india weather
+ */
+.leftcol a{
+	
+	margin-top: 10px;
+	font-weight: 300;
+	color: orange;
+	text-decoration: none;
+}
+
+/**
+ * footer
+ */
+#footer_container{
+	background-color: #555;
+}
+
+/**
+ * footer
+ */
+.copyright{
+	padding:10px;
+	font-family: Lato,sans-serif;
+	color:white;
+	line-height:2;
+	font-size:14px;
+}
+
+/**
+ * footer
+ */
+.social li{
+	display:inline;
+	padding: 0 10px 0px 10px;
+	line-height:2.5;
+	font-size: 16px;
+}
+
+/**
+ * footer
+ */
+.social a{
+	display:block;
+	text-align:center;
+	float:right;
+	line-height:2;
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+	padding-bottom: 32px;
+	
+}
+
+
+/**
+ * pollution page container
+ */
+#container{
+	max-width: 960px;
+	margin: auto;
+	background: white;
+	padding: 32px;
+}
+
+/**
+ * navigation bar
+ */
+.menu{
+	padding: 5px 0 5px 0;
+	background-color: #a9a9a9;
+	text-align: center;
+	line-height: 32px;
+
+}
+/**
+ * navigation bar
+ */
+ul.menu{
+	margin-top: 15px;
+}
+/**
+ * navigation bar
+ */
+.menu li{
+	display: inline;
+	padding: 0 10px 0px 10px;
+	font-size: 20px;
+}
+/**
+ * navigation bar
+ */
+.menu a{
+	text-decoration: none;
+	color: white;
+	padding: 8px;
+}
+/**
+ * navigation bar
+ */
+.menu a:hover{
+	color: orange;
+}
+
+/**
+ * main content
+ */
+.pollution_content h1{
+	background-color:yellow;
+	text-transform: uppercase;;
+	text-align: center;
+	color: orange;
+	line-height: 150px;
+}	
+/**
+ * main content
+ */
+.pollution_main h3{
+	font-family: Arial;
+	font-size: 20px;
+}
+/**
+ * main content
+ */
+.pollution_main p{
+
+	display: block;
+}
+
+
+/**
+ * hero section
+ */
+.pollution-image {
+    
+    background-image: url("../img/pollution.jpeg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding-top: 25%;
+    margin-top: 10px;
+    background-size: cover;
+    position: relative;
+}
+
+
+/**
+ * hero section
+ */
+.pollution-text {
+    text-align: center;
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
